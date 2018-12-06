@@ -47,7 +47,7 @@ class Galerie
     private $titre;
 
     /**
-     * @ORM\Column(name="slug", type="string", length=255, unique=true)
+     * @ORM\Column(name="slug", type="string", length=191, unique=true)
      * @Assert\NotBlank(message="Compléter le champ slug")
      */
     private $slug;
